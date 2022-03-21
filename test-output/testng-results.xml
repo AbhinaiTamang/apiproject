@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9403" started-at="2022-03-21T10:59:09Z" finished-at="2022-03-21T10:59:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9403" started-at="2022-03-21T10:59:09Z" finished-at="2022-03-21T10:59:19Z">
+      <class name="APIPROJECT.apiproject.localhostapi">
+        <test-method status="PASS" signature="createuser(org.testng.ITestContext)[pri:0, instance:APIPROJECT.apiproject.localhostapi@7e0babb1]" name="createuser" duration-ms="8997" started-at="2022-03-21T16:29:09Z" finished-at="2022-03-21T16:29:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3f2a3a5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method status="PASS" signature="modifyuser(org.testng.ITestContext)[pri:0, instance:APIPROJECT.apiproject.localhostapi@7e0babb1]" name="modifyuser" duration-ms="93" started-at="2022-03-21T16:29:18Z" depends-on-methods="APIPROJECT.apiproject.localhostapi.createuser" finished-at="2022-03-21T16:29:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3f2a3a5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyuser -->
+        <test-method status="PASS" signature="login(org.testng.ITestContext)[pri:0, instance:APIPROJECT.apiproject.localhostapi@7e0babb1]" name="login" duration-ms="179" started-at="2022-03-21T16:29:18Z" depends-on-methods="APIPROJECT.apiproject.localhostapi.modifyuser" finished-at="2022-03-21T16:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3f2a3a5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="delete(org.testng.ITestContext)[pri:0, instance:APIPROJECT.apiproject.localhostapi@7e0babb1]" name="delete" duration-ms="68" started-at="2022-03-21T16:29:19Z" depends-on-methods="APIPROJECT.apiproject.localhostapi.login" finished-at="2022-03-21T16:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3f2a3a5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- APIPROJECT.apiproject.localhostapi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
